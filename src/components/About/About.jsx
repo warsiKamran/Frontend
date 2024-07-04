@@ -5,6 +5,7 @@ import introVideo from '../../assets/videos/testing.mp4';
 import {RiSecurePaymentFill} from "react-icons/ri";
 import termsAndCondition from "../../assets/docs/termsAndCondition"
 
+
 const Founder = ()=>(
     <Stack 
         direction={["column", "row"]} 
@@ -39,6 +40,7 @@ const VideoPlayer = () =>(
     </Box>
 );
 
+
 const TandC = ({termsAndCondition}) =>(
     <Box>
         <Heading 
@@ -53,6 +55,7 @@ const TandC = ({termsAndCondition}) =>(
             <Heading my="4" size={"xs"} children="Refunds can be requested only for cancellations made within a 7-day window."/>
         </Box>
     </Box>
+
 );
 
 const About = () => {
